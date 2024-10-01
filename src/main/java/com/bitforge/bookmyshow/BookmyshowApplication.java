@@ -8,10 +8,18 @@ import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 import org.springframework.scheduling.annotation.EnableScheduling;
 import org.springframework.scheduling.annotation.Scheduled;
 
+/**
+ * The type Bookmyshow application.
+ */
 @SpringBootApplication
 @EnableJpaAuditing
 public class BookmyshowApplication implements CommandLineRunner {
 
+	/**
+	 * The entry point of application.
+	 *
+	 * @param args the input arguments
+	 */
 	public static void main(String[] args) {
 		SpringApplication.run(BookmyshowApplication.class, args);
 	}
